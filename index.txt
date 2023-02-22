@@ -1,0 +1,32 @@
+"Create a function in either javascript, python or java that takes in a string as input and returns all the unique substrings of the string. 
+The program should be case-insensitive, so for example "A" and "a" should be treated as the same letter.
+If you use code from elsewhere as a basis for your solution please include a reference."
+
+Break this down:
+
+Create an input
+Store the input value as a string
+Submit button
+When submitted perform a function that returns all unique sub strings in a list
+    function 
+    to be case insensitive we need to convert string all to lower case and trim spaces
+    we need to check the whole string for the character at position 0
+    we need to loop over each character in the string
+    we need to have a pointer at starting position
+    we need to have a pointer to current position in loop
+    while the current position is less than the end of the length
+        we need to check if that character that matches the start character
+            if it doesnt then we need to move to the next character as the current position
+                if it does we need to cut the string between starting position and current position and
+                    return it then move onto the next starting position which would be after the initial 
+                        start position.
+Button to clear input and return to empty input
+
+Thoughts now finished:
+
+this was fun, to get into vanilla JS again after a little while was good. Found myself trying to loop over
+every possible thing which turned into loop hell. Had to go through a few variations to eliminate strings with single 
+letters aswell as well as i thought that was too simplistic.
+
+I used w3schools.com for some refreshers on match method and to check what the best loop to use was.
+
